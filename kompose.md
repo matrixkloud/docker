@@ -21,6 +21,11 @@ curl -L https://github.com/kubernetes/kompose/releases/download/v1.32.0/kompose-
 chmod +x kompose
 sudo mv ./kompose /usr/local/bin/kompose
 ```
+      
+## Usage
+```
+kompose convert -f docker-compose.yml
+```
 
 For More details: 
 visit: https://github.com/kubernetes/kompose/releases
