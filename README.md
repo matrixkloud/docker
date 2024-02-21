@@ -22,6 +22,7 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
 ```
+##### *** For Linux mint change CODE name to ubuntu latest codename
 
 ### Install packages
 ```
