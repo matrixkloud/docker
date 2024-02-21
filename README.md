@@ -24,6 +24,14 @@ sudo apt-get update
 ```
 ##### *** For Linux mint change CODE name to ubuntu latest codename
 
+## Post release task
+
+```
+sudo groupadd docker
+sudo usermod -aG docker $USER
+```
+
+
 ### Install packages
 ```
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
